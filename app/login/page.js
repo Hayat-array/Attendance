@@ -51,7 +51,7 @@ export default function LoginPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg>
                     </div>
-                    <div style={{ fontSize: 24, fontWeight: 800, color: 'var(--text)' }}>Smart Attendance</div>
+                    <div style={{ fontSize: 24, fontWeight: 800, color: 'var(--text)' }}>JECRC Attendance App</div>
                     <div style={{ fontSize: 13, color: 'var(--text3)', marginTop: 5 }}>College Management Portal</div>
                 </div>
 
@@ -116,7 +116,11 @@ export default function LoginPage() {
                         </div>
                     </div>
                 </div>
-                <p style={{ textAlign: 'center', fontSize: 12, color: 'var(--text3)', marginTop: 22, opacity: 0.7 }}>Smart Attendance © 2026 — College Management Portal</p>
+                <p style={{ textAlign: 'center', fontSize: 12, color: 'var(--text3)', marginTop: 22, opacity: 0.7 }}>
+                    Smart Attendance © 2026 — College Management Portal
+                    <br />
+                    <span style={{ fontSize: 11, fontWeight: 600, opacity: 0.8, marginTop: 4, display: 'block' }}>Created by Hayat Ali</span>
+                </p>
             </div>
         </>
     );

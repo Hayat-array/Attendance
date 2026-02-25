@@ -7,8 +7,8 @@ import Providers from '@/components/Providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Smart Attendance – College Management Portal',
-  description: 'Smart Attendance System for College Teachers',
+  title: 'JECRC Attendance App — By Hayat Ali',
+  description: 'Premium College Attendance Management System for JECRC, created by Hayat Ali',
 };
 
 export default async function RootLayout({ children }) {

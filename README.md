@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Attendance
 =======
-# 📋 Smart Attendance System — Next.js
+# 📋 JECRC Attendance App — Next.js
 
 A high-performance, professional **College Attendance Management System** built with **Next.js 16**, **MongoDB (Mongoose)**, and **NextAuth.js**. This portal allows teachers to manage their students, record daily attendance with a modern UI, and generate detailed analytics reports.
 

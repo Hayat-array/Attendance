@@ -34,14 +34,14 @@ export default function Navbar() {
         <header>
             <div className="header-inner">
                 <Link href="/dashboard" className="logo">
-                    <div className="logo-icon">
-                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.2">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                    <div className="logo-icon" style={{ background: 'linear-gradient(135deg, var(--accent), #1d4ed8)', padding: 6, borderRadius: 10, boxShadow: '0 0 15px var(--accent-glow)' }}>
+                        <svg fill="none" viewBox="0 0 24 24" stroke="#fff" strokeWidth="2.5">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
                     <div>
-                        <div className="logo-name">Smart Attendance</div>
-                        <div className="logo-sub">College Portal</div>
+                        <div className="logo-name">JECRC Attendance App</div>
+                        <div className="logo-sub">College Portal <span style={{ opacity: 0.5 }}>— By Hayat Ali</span></div>
                     </div>
                 </Link>
 
